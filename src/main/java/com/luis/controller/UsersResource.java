@@ -58,6 +58,12 @@ public class UsersResource {
 		usersService.deleteUser(id);
 		return new ResponseEntity(HttpStatus.OK);
 	}
+
+	@RequestMapping(value= "/delete/all", method = RequestMethod.DELETE)
+	public ResponseEntity deleteAllUsers() {
+		usersService.deleteAll();
+		return new ResponseEntity(HttpStatus.OK);
+	}
 	
 
 

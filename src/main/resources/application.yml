@@ -1,9 +1,9 @@
 spring:
   datasource:
     driverClassName: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521/XEPDB1
-    username: luis
-    password: LF1291716
+    url: jdbc:oracle:thin:@localhost:1521/luisoracle
+    username: system
+    password: Lf1291716
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
